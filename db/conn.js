@@ -5,7 +5,7 @@ const { Sequelize } = require('sequelize');
 // 2. Crie o banco de dados 'tasks_db' no seu MySQL com o comando: CREATE DATABASE tasks_db;
 // 3. Substitua 'usuario' e 'senha' pelas SUAS credenciais.
 //    (Em XAMPP padrão, o usuário é 'root' e a senha é vazia: '')
-const sequelize = new Sequelize('tasks_db', 'postgres', '1234', {
+const sequelize = new Sequelize('task_db', 'postgres', '1234', {
   host: 'localhost',
   dialect: 'postgres',
 });
