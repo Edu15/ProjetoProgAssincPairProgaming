@@ -13,6 +13,11 @@ const Task = db.define('Task', {
     type: DataTypes.BOOLEAN,
     defaultValue: false,
   },
+  priority: {
+    type: DataTypes.STRING,
+    allowNull: false,
+    defaultValue: 'baixa',
+  },
 });
 
 module.exports = Task;
