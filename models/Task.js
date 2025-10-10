@@ -15,8 +15,7 @@ const Task = db.define('Task', {
   },
   priority: {
     type: DataTypes.STRING,
-    allowNull: false,
-    defaultValue: 'baixa',
+    defaultValue: 'Baixa',
   },
 });
 
